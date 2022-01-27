@@ -25,7 +25,7 @@ let package = Package(
         .target(
             name: "pop",
             dependencies: [],
-            publicHeadersPath: "",
+            publicHeadersPath: "Sources/pop/",
             cxxSettings: [
                 .headerSearchPath(""),
                 .headerSearchPath("WebCore/")
