@@ -6,8 +6,8 @@ Pod::Spec.new do |spec|
   spec.authors      = { 'Kimon Tsinteris' => 'kimon@mac.com' }
   spec.summary      = 'Extensible animation framework for iOS and OS X.'
   spec.source       = { :git => 'https://github.com/facebook/pop.git', :tag => '1.0.10' }
-  spec.source_files = 'pop/**/*.{h,m,mm,cpp}'
-  spec.public_header_files = 'pop/{POP,POPAnimatableProperty,POPAnimatablePropertyTypes,POPAnimation,POPAnimationEvent,POPAnimationExtras,POPAnimationTracer,POPAnimator,POPBasicAnimation,POPCustomAnimation,POPDecayAnimation,POPDefines,POPGeometry,POPLayerExtras,POPPropertyAnimation,POPSpringAnimation,POPVector}.h'
+  spec.source_files = 'Sources/pop/**/*.{h,m,mm,cpp}'
+  spec.public_header_files = 'Sources/pop/{POP,POPAnimatableProperty,POPAnimatablePropertyTypes,POPAnimation,POPAnimationEvent,POPAnimationExtras,POPAnimationTracer,POPAnimator,POPBasicAnimation,POPCustomAnimation,POPDecayAnimation,POPDefines,POPGeometry,POPLayerExtras,POPPropertyAnimation,POPSpringAnimation,POPVector}.h'
   spec.requires_arc = true
   spec.social_media_url = 'https://twitter.com/fbOpenSource'
   spec.library = 'c++'

@@ -26,7 +26,7 @@
 /**
  @abstract Allows to select display to bind. Returns nil if failed to create the display link.
  */
-- (instancetype)initWithDisplayID:(CGDirectDisplayID)displayID;
+- (instancetype)initWithDisplayID:(uint32_t)displayID;
 #endif
 
 /**
